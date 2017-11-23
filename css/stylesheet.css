@@ -1,0 +1,644 @@
+@font-face {
+    font-family: BreurFont;
+    src: url('/fonts/BreuerFont.ttf');
+}
+
+@font-face {
+    font-family: BreuerText-Regular;
+    src: url('/fonts/BreuerText-Regular.otf');
+}
+
+@font-face {
+    font-family: BreuerText-BoldItalic;
+    src: url('/fonts/BreuerText-BoldItalic.otf');
+}
+
+@font-face {
+    font-family: BreuerText-Bold;
+    src: url('/fonts/BreuerText-Bold.ttf');
+}
+
+@font-face {
+    font-family: BreurHeadline;
+    src: url('/fonts/BreuerHeadline.ttf');
+}
+
+@font-face {
+    font-family: BreuerText-Bold;
+    src: url('/fonts/BreuerText-Bold.ttf');
+}
+
+@font-face {
+    font-family: BreuerHeadline-Oblique;
+    src: url('/fonts/BreuerHeadline-Oblique.otf');
+}
+
+
+
+* {
+	transition: 0.5s ease;
+}
+
+
+body {
+	background-image: url('/uploads/images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Arial';
+	color: #FFF;
+	padding: 30px 0;
+}
+
+.coral-logo-box {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.coral-login-box {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+
+.btn-login {
+	height: 29px;
+	width: 70px;
+	background: linear-gradient(to right, #ffcd00 , #ffeb00); 
+	border: none;
+    border-radius: 4px;
+    box-shadow: inset -1px -1px 0px #fff362;
+    position: absolute;
+    right: -35px;
+    top: -1px;
+}
+
+
+.login-box {
+	width: 187px;
+	height: 29px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	position: relative;
+	margin-right: 35px;
+    padding: 2.5px 10px;
+}
+
+.login-text {
+    font-family: 'BreuerHeadline';
+    font-size: 20px;
+    color: #c08c00;
+    letter-spacing: 0.010em;
+}
+
+
+.registered-user-text {
+	font-family: 'Arial';
+	font-size: 13px;
+	letter-spacing: -0.025em;
+	text-decoration: underline;
+	color: #fff;
+}
+
+.bet-girl {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+    margin-bottom: -30px;
+}
+
+
+#content {
+	position: relative;
+}
+
+.btn-new-user {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    max-width: 176px;
+}
+
+.new-cust-text {
+	position: absolute;
+	font-family: 'BreuerText';
+	font-weight: bold;
+	color: #004696;
+	font-size: 16px;
+    top: 34.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box-title-container {
+	position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+}
+
+.box-title-sm {
+    font-family: 'BreuerHeadline-Oblique';
+    font-size: 26px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: -6px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    padding: 0 6px;
+}
+
+.box-title-md {
+	font-family: 'BreuerHeadline-Oblique';
+    font-size: 49px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: -14px;
+    text-transform: uppercase;
+	background: linear-gradient(to bottom, #ffcd00 , #ffeb00); 
+	border: none;
+    border-radius: 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 6px;
+}
+
+.box-title-lg {
+	font-family: 'BreuerHeadline-Oblique';
+    font-size: 112px;
+    color: #fff;
+    margin-top: -22px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+	background: linear-gradient(to bottom, #ffcd00 , #ffeb00); 
+	border: none;
+    border-radius: 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 6px;
+}
+
+.box-caption {
+	font-family: 'BreuerText-Regular';
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: -8px;
+}
+
+.input-email {
+	height: 40px;
+	width: 100%;
+	max-width: 230px;
+	border: 1px solid #000;
+	padding: 2.5px 15px;
+	font-size: 20px;
+	font-family: 'BreuerText-Regular';
+	color: #000;
+	margin: 8px 0;
+}
+
+
+.btn-betnow {
+    border-radius: 5px;
+    border: 2px solid #77bc20;
+    background: linear-gradient(135deg, #231d47, #2e52a0, #65ade0, #2e52a0, #231d47);
+    font-family: 'BreuerText-Bold';
+    font-style: italic;
+    font-size: 28px;
+    height: 40px;
+    width: 230px;
+    padding: 0px 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.71);
+    box-shadow: 0 0 0px 2px #ea4632;
+
+}
+
+.btn-betnow:hover {
+    border-radius: 5px;
+    border: 2px solid #77bc20;
+    background: linear-gradient(135deg, #65ade0, #2e52a0, #231d47, #2e52a0, #65ade0);
+    font-family: 'BreuerText-Bold';
+    font-style: italic;
+    font-size: 28px;
+    width: 230px;
+    padding: 0px 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.71);
+    box-shadow: 0 0 0px 2px #ea4632;
+}
+
+.steps-container {
+	text-align: left;
+	position: relative;
+}
+
+.round-steps {
+    animation: spin 4s infinite linear;
+    float: left;
+}
+
+.steps-text {
+	font-family: 'BreuerText-Bold';
+	font-size: 22px;
+    margin-top: 1.5em;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.71);
+}
+
+.steps-number {
+	font-family: 'BreurHeadline';
+	font-size: 84px;
+	background-color: #00203e;
+	color: transparent;
+	text-shadow: 1px 1px 14px rgba(0,66,140,1);
+	-webkit-background-clip: text;
+	left: 75px;
+    top: 18px;
+    z-index: 9;
+    position: absolute;
+}
+
+.steps-container .col-lg-4 {
+	position: relative;
+	background-image: url('/uploads/images/divider.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	display: block; 
+}
+
+.steps-container .col-lg-4:last-child {
+	position: relative;
+	background-image: unset;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.gamble-logo {
+	width: 210px;
+	height: 32px;
+	margin-top: 10px;
+}
+
+#footer {
+	margin-top: 30px;
+	font-family: 'Arial';
+	font-size: 10px;
+}
+
+#footer a {
+	color: #fff;
+	cursor: pointer;
+}
+
+@media (min-width: 768px) {
+	.modal-dialog {
+	    width: 600px;
+	    margin: 100px auto;
+	}
+
+}
+
+
+
+#termsModal .modal-header {
+    padding: 6.5px 12px;
+    border-bottom: 1px solid #e5e5e5;
+    background: linear-gradient(#0556bf, #00489a);
+    border-radius: 4px 4px 0 0;
+    border-left: 1px solid #0279d7;
+    border-top: 1px solid #0279d7;
+}
+
+
+#termsModal .modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+    margin-left: 10px;
+}
+
+#termsModal .modal-body {
+	color: #686868;
+	font-size: 11px;
+	padding: 2.5em 3.5em;
+}
+
+#aboutModal .modal-body {
+    font-family: 'BreuerText-Regular';
+	font-size: 12px;
+}
+
+.info-icon {
+	border-right: 1px solid #0279d7;
+	padding: 10px 5px;
+    padding-right: 15px;
+}
+
+.ol-terms, .ol-about {
+	padding: 0;
+}
+
+.ol-terms li, .ol-about li {
+	padding-bottom: 7.5px;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #fff;
+    text-shadow: none;
+    filter: alpha(opacity=20);
+    opacity: 1;
+}
+
+#aboutModal .modal-body {
+    position: fixed;
+    background: #052347;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+#aboutModal .modal-body > h5 {
+	text-decoration: underline;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#aboutModal .fa-caret-up {
+	margin-right: 8px;
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1920px) {
+	.btn-new-user {
+	    top: 26%;
+	    left: 50%;
+	}
+
+	.new-cust-text {
+	    top: 27.2%;
+	    left: 50%;
+	}
+
+	.box-title-container {
+	    position: absolute;
+	    top: 31%;
+	}
+
+	.steps-text {
+	    font-size: 22px;
+	    margin-top: 2em;
+	}
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1450px) {
+	.btn-new-user {
+	    top: 18.5%;
+	    left: 50%;
+	}
+
+	.new-cust-text {
+	    top: 19.4%;
+	    left: 50%;
+	}
+
+	.box-title-container {
+	    position: absolute;
+	    top: 22%;
+	}
+
+	.steps-text {
+	    font-size: 22px;
+	    margin-top: 1.5em;
+	}
+}
+
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1320px) {
+	.btn-new-user {
+	    top: 18.5%;
+	    left: 50%;
+	}
+
+	.new-cust-text {
+	    top: 19.4%;
+	    left: 50%;
+	}
+
+	.box-title-container {
+	    position: absolute;
+	    top: 22%;
+	}
+
+	.steps-text {
+	    font-size: 27px;
+	    margin-top: 0.2em;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.steps-text {
+	    font-size: 32px;
+	    margin-top: 1.25em;
+	    padding: 0 2em;
+	  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.steps-text {
+	    font-size: 26px;
+	    margin-top: 2em;
+	    padding: 0 3em;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.steps-text {
+	    font-size: 22px;
+	    margin-top: 2em;
+	    padding: 0 3em;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 553px) {
+	.btn-new-user {
+	    top: 16.5%;
+	    left: 50%;
+	}
+
+	.new-cust-text {
+	    top: 17.3%;
+	    left: 50%;
+	    font-size: 13.5px;
+	}
+
+	.box-title-container {
+	    position: absolute;
+	    top: 19.5%;
+	}
+
+	.box-title-sm {
+	    font-size: 20px;
+	    margin-top: 1px;
+	}
+
+	.box-title-md {
+	    font-size: 33px;
+	    margin-top: 2px;
+	    margin-bottom: -10px;
+	}
+
+	.box-title-lg {
+	    font-size: 92px;
+	    margin-top: -22px;
+	}
+
+	.box-caption {
+	    font-size: 12px;
+	    margin-top: -12px;
+	}
+
+	.btn-betnow {
+		height: 45px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.steps-text {
+	    font-size: 18px;
+	    margin-top: 1.5em;
+	    padding: 0 1.5em;
+	}
+
+	.round-steps {
+		width: 110px;
+	}
+
+
+	.steps-number {
+	    font-size: 55px;
+	    left: 58px;
+	    top: 15px;
+	    z-index: 9;
+	    position: absolute;
+	}
+}
+
+/* Small Devices, Iphone6 */
+@media only screen and (max-width : 375px) {
+	.new-cust-text {
+	    top: 17.7%;
+	    font-size: 9px;
+	}
+
+	.btn-new-user {
+	    top: 17%;
+	}
+
+	.box-title-container {
+	    top: 20%;
+	}
+
+	.box-title-sm {
+    	font-size: 16px;
+ 	   margin-top: 2px;
+ 	}
+
+ 	.box-title-md {
+	    font-size: 23px;
+	    margin-top: 4px;
+	    margin-bottom: -9px;
+	}
+
+	.box-title-lg {
+	    font-size: 70px;
+	    margin-top: -15px;
+	}
+
+	.box-caption {
+		font-size: 9.5px;
+	    font-weight: 600;
+	    margin: 0;
+	    letter-spacing: -0.01em;
+	    margin-top: -6px;
+	}
+
+	.input-email {
+	    height: 35px;
+	    max-width: 240px;
+	    padding: 4.5px 15px;
+	    font-size: 14px;
+	    margin: 0;
+	    margin-top: 0.3em;
+	    margin-bottom: 0.5em;
+	}
+
+	.btn-betnow {
+		width: 230px;
+		height: 35px;
+		font-size: 22px;
+	}
+
+	.btn-betnow:hover {
+		width: 230px;
+		height: 35px;
+		font-size: 22px;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+	.box-title-container {
+	    top: 17%;
+	}
+
+	.btn-new-user {
+	    top: 14%;
+	    width: 100px;
+	}
+
+	.new-cust-text {
+	    top: 14.9%;
+	    font-size: 9px;
+	}
+
+	.btn-betnow {
+	    width: 205px;
+	    height: 35px;
+	    font-size: 22px;
+	}
+
+	.btn-betnow:hover {
+	    width: 205px;
+	    height: 35px;
+	    font-size: 22px;
+	}
+
+	.steps-container {
+	    text-align: left;
+	    position: relative;
+	    margin-top: 25px;
+	}
+}

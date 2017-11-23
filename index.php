@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Landing Page CSS -->
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+
+<body>
+
+	<!-- HEADER -->
+	<div class="container">
+		<div class="coral-header">
+
+			<!-- COMPANY LOGO -->
+			<div class="coral-logo-box">
+				<a href="http://www.coral.co.uk/?betvalue=8-1">
+					<img src="uploads/images/logo.png">
+				</a>
+			</div> <!-- /company logo -->
+
+			<!-- LOGIN BOX -->
+			<div class="coral-login-box">
+				<div class="login-box">
+					<a href="http://www.coral.co.uk/?client=true">
+						<span class="registered-user-text">I'm Already a Customer</span>
+						<button class="btn-login">
+							<span class="login-text">LOGIN</span>
+						</button>
+					</a>
+				</div> <!-- /login box -->
+			</div> <!-- /coral login box -->
+
+		</div> <!-- /coral header -->
+	</div> <!-- /header container -->
+
+	<!-- CONTENT -->
+	<div id="content" class="container text-center clearfix">
+		<img src="uploads/images/woman.png" class="img-responsive bet-girl">
+		<img src="uploads/images/btn-newcust.png" class="img-responsive btn-new-user">
+		<span class="new-cust-text">New Customer Offer</span>
+
+
+		<div class="box-title-container clearfix">
+			<h2 class="box-title-sm">Liverpool v Augsburg</h2>
+			<h2 class="box-title-md">Liverpool To Win</h2>
+			<h2 class="box-title-md">in 90 Mins</h2>
+			<h2 class="box-title-lg">8/1</h2>
+			<h6 class="box-caption">
+				£/€ 5 Bet Only | PLUS £/€5 Free Bet should your bet lose
+			</h6>
+
+			<form method="post">
+				<input type="email" name="input-email" id="input-email" placeholder="Email" class="input-email"><br>
+				<input type="submit" name="bet-now" id="bet-now" value="BET NOW >>" class="btn-betnow">
+			</form>
+		</div>
+
+		<div class="steps-container clearfix">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-4 clearfix">
+
+					<div class="steps-box">
+						<span class="steps-number">1</span>
+						<img src="uploads/images/btn-steps.png" class="round-steps img-responsive">
+					</div>
+					
+					<div class="steps-text">
+						Register & Deposit £/€5 or More
+					</div>
+					
+
+				</div>
+
+				<div class="col-sm-12 col-md-12 col-lg-4 clearfix">
+
+					
+					<div class="steps-box">
+						<span class="steps-number">2</span>
+						<img src="uploads/images/btn-steps.png" class="round-steps img-responsive">
+					</div>
+				
+					<div class="steps-text">
+						Your Enhanced Odds Will Display On The Homepage
+					</div>
+					
+
+				</div>
+
+				<div class="col-sm-12 col-md-12 col-lg-4 clearfix">
+
+					
+					<div class="steps-box">
+						<span class="steps-number">3</span>
+						<img src="uploads/images/btn-steps.png" class="round-steps img-responsive">
+					</div>
+				
+					<div class="steps-text">
+						If Your Bet Wins Your Winnings Will Be Paid As A £/€40 Free Bet
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+
+		<div class="gamble-logo-box text-center">
+			<img src="uploads/images/gamble-logo.jpg" class="gamble-logo">
+		</div>
+	</div> <!-- /content -->
+
+
+	<!-- HEADER -->
+	<div id="footer" class="container">
+		<div class="coral-footer text-center">
+			<a data-toggle="modal" data-target="#aboutModal">
+				<i class="fa fa-caret-right" aria-hidden="true"></i>
+				<u>About Coral Sports Betting</u>
+			</a>
+			&nbsp;|&nbsp;
+			<a data-toggle="modal" data-target="#termsModal">
+				<u>Terms & Conditions</u>
+			</a>
+		</div>
+	</div>
+
+
+	<!-- Modal terms -->
+	<div id="termsModal" class="modal fade" role="dialog">
+	  	<div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      	<div class="modal-header">
+		        	<button type="button" class="close" data-dismiss="modal">&times;</button>
+		        	<span class="info-icon"><i class="fa fa-info" aria-hidden="true"></i></span>
+		        	<h4 class="modal-title">Terms and Conditions</h4>
+		      	</div>
+
+		      	<div class="modal-body">
+		        	<ol class="ol-terms">
+		        		<li>The £30 free bet offer is available for new coral.co.uk customers who deposit and bet a total of £30 on any sports event(s).</li>
+
+		        		<li>The free bet will be triggered by the first deposit amount and will not be applicable for subsequent deposit values.</li>
+
+		        		<li>Customers depositing and staking less than £30 will receive the equivalent free bet value. For example: a customer that deposits an initial amount of £5 will be credited with a £5 free bet once they have bet a total of £5 on any sports event(s).</li>
+
+		        		<li>Advertised offers relating to the opening of a Coral.co.uk account are limited to one per customer.</li>
+
+		        		<li>In the case of a customer opening more than one Coral.co.uk account, we reserve the right to suspend and close duplicate accounts, and make void any bets placed.</li>
+
+		        		<li>Please note that the free bet will only appear in your account once the amount of your own deposit has been bet with on any sporting event(s) (this doesn't have to be bet as one go but can be bet in increments). The free bet must then be staked before any withdrawal is permitted. Void bets do not count toward this offer.</li>
+
+		        		<li>The free bet can be redeemed on win or each-way bets and can used on the following listed bet types: single, double, treble, 4-fold and upwards accumulator, forecast, combination forecast, tricast and combination tricast.</li>
+
+		        		<li>The original free bet stake is not returned with any winnings.</li>
+
+		        		<li>The free bet is not valid on tote, other combination and multiple bets (i.e Lucky 15s)</li>
+
+		        		<li>The free bet is valid for 30 days.</li>
+
+		        		<li>We reserve the right to amend or withdraw any promotion at any point for whatever reason.</li>
+
+		        		<li>Coral.co.uk rules apply.</li>
+
+		        		<li>Offer only available to UK Residents aged 18 or over.</li>
+	        		</ol>
+		      	</div>
+
+		    </div>
+
+	  	</div>
+	</div>
+
+	<!-- Modal about-->
+	<div id="aboutModal" class="modal fade" role="dialog">
+	  	<div class="modal-dialog">
+
+		    <!-- Modal content-->
+		    <div class="modal-content">
+
+		      	<div class="modal-body">
+
+			    	<h5><i class="fa fa-caret-up" aria-hidden="true"> </i>Terms and Conditions</h5>
+
+		        	<ol class="ol-about">
+		        		<li>The £30 free bet offer is available for new coral.co.uk customers who deposit and bet a total of £30 on any sports event(s).</li>
+
+		        		<li>The free bet will be triggered by the first deposit amount and will not be applicable for subsequent deposit values.</li>
+
+		        		<li>Customers depositing and staking less than £30 will receive the equivalent free bet value. For example: a customer that deposits an initial amount of £5 will be credited with a £5 free bet once they have bet a total of £5 on any sports event(s).</li>
+
+		        		<li>Advertised offers relating to the opening of a Coral.co.uk account are limited to one per customer.</li>
+
+		        		<li>In the case of a customer opening more than one Coral.co.uk account, we reserve the right to suspend and close duplicate accounts, and make void any bets placed.</li>
+
+		        		<li>Please note that the free bet will only appear in your account once the amount of your own deposit has been bet with on any sporting event(s) (this doesn't have to be bet as one go but can be bet in increments). The free bet must then be staked before any withdrawal is permitted. Void bets do not count toward this offer.</li>
+
+		        		<li>The free bet can be redeemed on win or each-way bets and can used on the following listed bet types: single, double, treble, 4-fold and upwards accumulator, forecast, combination forecast, tricast and combination tricast.</li>
+
+		        		<li>The original free bet stake is not returned with any winnings.</li>
+
+		        		<li>The free bet is not valid on tote, other combination and multiple bets (i.e Lucky 15s)</li>
+
+		        		<li>The free bet is valid for 30 days.</li>
+
+		        		<li>We reserve the right to amend or withdraw any promotion at any point for whatever reason.</li>
+
+		        		<li>Coral.co.uk rules apply.</li>
+		        		
+		        		<li>Offer only available to UK Residents aged 18 or over.</li>
+	        		</ol>
+
+	        		<hr>
+		      	</div>
+
+		    </div>
+
+	  	</div>
+	</div>
+
+</body>
+</html>
